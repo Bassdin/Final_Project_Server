@@ -1,0 +1,31 @@
+{
+  "name": "hackeru-rest-api",
+  "version": "1.0.0",
+  "description": "HackerU project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grizli2007/HackerU-REST-API.git"
+  },
+  "author": "Michael Maximenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grizli2007/HackerU-REST-API/issues"
+  },
+  "homepage": "https://github.com/grizli2007/HackerU-REST-API#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.1.3",
+    "nodemon": "^2.0.15"
+  }
+}
